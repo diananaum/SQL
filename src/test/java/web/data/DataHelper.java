@@ -44,7 +44,7 @@ public class DataHelper {
     }
 
     public static VerificationCode randomVerificationCode() {
-        var randomCode = faker.numerify("*****");
+        var randomCode = faker.numerify("#####");
         return new VerificationCode(randomCode);
     }
 }
